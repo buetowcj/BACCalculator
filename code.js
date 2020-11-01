@@ -9,10 +9,10 @@ function calculateBAC()
     numBeers = parseFloat(numBeers);
 
     var numWine = $("#numWine").val();
-    numBeers = parseFloat(numWine);
+    numWine = parseFloat(numWine);
 
     var numShots = $("#numShots").val();
-    numBeers = parseFloat(numShots);
+    numShots = parseFloat(numShots);
 
     var weight = $("#weight").val();
     weight = parseFloat(weight);
